@@ -1,0 +1,37 @@
+{
+    "alpha": 0.1,
+    "copy_X": true,
+    "fit_intercept": true,
+    "l1_ratio": 0.0,
+    "max_iter": 500,
+    "positive": false,
+    "precompute": false,
+    "random_state": null,
+    "selection": "random",
+    "tol": 0.0001,
+    "warm_start": true,
+    "model": "elastic net"
+}
+{
+    "alpha": 10,
+    "copy_X": true,
+    "fit_intercept": true,
+    "max_iter": 500,
+    "positive": false,
+    "precompute": false,
+    "random_state": null,
+    "selection": "random",
+    "tol": 0.0001,
+    "warm_start": false,
+    "model": "lasso"
+}
+{
+    "alpha": 10,
+    "copy_X": true,
+    "fit_intercept": true,
+    "max_iter": 1000,
+    "positive": false,
+    "solver": "lsqr",
+    "tol": 0.0001,
+    "model": "ridge"
+}

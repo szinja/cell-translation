@@ -1,0 +1,8 @@
+# No specific version numbers are provided, since the specific versions of the listed libraries should not be an issue in this prject. (according to experimentation)
+pandas
+pyreadr
+matplotlib
+seaborn
+scikit-learn
+torch
+xgboost

@@ -1,0 +1,105 @@
+{
+    "alpha": 0.1,
+    "copy_X": true,
+    "fit_intercept": true,
+    "l1_ratio": 0.0,
+    "max_iter": 500,
+    "positive": false,
+    "precompute": false,
+    "random_state": null,
+    "selection": "random",
+    "tol": 0.0001,
+    "warm_start": true,
+    "model": "elastic net"
+}
+{
+    "alpha": 10,
+    "copy_X": true,
+    "fit_intercept": true,
+    "max_iter": 2000,
+    "positive": false,
+    "precompute": false,
+    "random_state": null,
+    "selection": "random",
+    "tol": 0.0001,
+    "warm_start": true,
+    "model": "lasso"
+}
+{
+    "alpha": 20,
+    "copy_X": true,
+    "fit_intercept": true,
+    "max_iter": 500,
+    "positive": false,
+    "solver": "sparse_cg",
+    "tol": 0.0001,
+    "model": "ridge"
+}
+{
+    "learning_rate": 0.01,
+    "num_epochs": 1000,
+    "dropout_rate": 0.2,
+    "hidden_dim1": 256,
+    "hidden_dim2": 128,
+    "num_layers": 4,
+    "model": "nn"
+}
+{
+    "alpha": 0.1,
+    "copy_X": true,
+    "fit_intercept": true,
+    "l1_ratio": 0.0,
+    "max_iter": 500,
+    "positive": false,
+    "precompute": false,
+    "random_state": null,
+    "selection": "random",
+    "tol": 0.01,
+    "warm_start": true,
+    "model": "elastic net"
+}
+{
+    "alpha": 10,
+    "copy_X": true,
+    "fit_intercept": true,
+    "max_iter": 1000,
+    "positive": false,
+    "precompute": false,
+    "random_state": null,
+    "selection": "random",
+    "tol": 0.0001,
+    "warm_start": true,
+    "model": "lasso"
+}
+{
+    "alpha": 20,
+    "copy_X": true,
+    "fit_intercept": true,
+    "max_iter": 500,
+    "positive": false,
+    "solver": "sparse_cg",
+    "tol": 0.0001,
+    "model": "ridge"
+}
+{
+    "learning_rate": 0.01,
+    "num_epochs": 1000,
+    "dropout_rate": 0.2,
+    "hidden_dim1": 256,
+    "hidden_dim2": 128,
+    "num_layers": 4,
+    "model": "nn"
+}
+{
+    "colsample_bytree": 1,
+    "device": "cuda",
+    "gamma": 0,
+    "learning_rate": 0.2,
+    "max_depth": 1,
+    "n_estimators": 50,
+    "reg_alpha": 0,
+    "reg_lambda": 1,
+    "subsample": 1,
+    "tree_method": "hist",
+    "model": "nn"
+}
